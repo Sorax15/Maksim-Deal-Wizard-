@@ -1,0 +1,141 @@
+.nav-main-container .td-info {
+    flex: auto;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 2%;
+}
+.date-time, .beverages, .share {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgb(112 144 176 / 20%);
+}
+.share {
+    margin-top: 35px;
+}
+.date-time h3, .beverages h3, .share h3 {
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 5px;
+    margin-bottom: 35px;
+}
+.datepicker-inline {
+    width: 100%!important;
+    margin: auto;
+}
+.table-condensed {
+    width: 100%!important;
+}
+td.day {
+    width: 50px!important;
+    height: 50px!important;
+}
+td.active.day {
+    background-color: #039be5!important;
+    background-image: none!important;
+}
+[data-toggle=buttons] .btn input[type=checkbox], [data-toggle=buttons]>.btn input[type=radio], [data-toggle=buttons]>.btn-group .btn input[type=checkbox], [data-toggle=buttons] .btn-group .btn input[type=radio] {
+    position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+}
+.time-radio, .beverage-btn {
+    border-radius: 20px!important;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    border-color: rgb(187, 187, 187);
+    background-color: #fff;
+    color: #039BE5;
+    width: 100%;
+}
+.time-radio.active, .beverage-btn.active {
+     border-color: #039BE5;
+     background-color: #039BE5;
+     color: #fff;
+
+     box-shadow: none;
+ }
+
+.time-radio:hover, .beverage-btn:hover {
+     border-color: #039BE5;
+     background-color: #039BE5;
+     color: #fff;
+ }
+
+.bv-comment label {
+    display: block;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.checkbox {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.contact-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .contact-box {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox input:checked ~ .contact-box {
+    background-color: #039be5;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.contact-box:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox input:checked ~ .contact-box:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .contact-box:after {
+    left: 9px;
+    top: 7px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+label[for="td_share_text"] {
+    margin-right: 25px;
+}
+.checkbox p, p.previous-contact {
+    color: #212121;
+    opacity: .5;
+    margin-top: 10px;
+}

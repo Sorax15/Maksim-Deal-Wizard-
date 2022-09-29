@@ -1,0 +1,52 @@
+.nav-main-container .trade-info {
+    flex: auto;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 2%;
+}
+.nav-main-container .row
+{
+    height: 100%;
+}
+.trade-info-header p {
+    font-size: 18px;
+    opacity: .54;
+}
+.trade-info-form-section {
+    margin-top: 35px;
+}
+.trade-info-form-section h3 {
+    color: #039BE5;
+    font-size: 24px;
+    font-weight: 700;
+}
+.trade-info-form-section hr {
+    border: 1px solid #CED8DF;
+}
+.trade-value-iframe iframe {
+    max-width: 100%;
+    width: 100%;
+    max-height: 90%;
+    height: 100%;
+}
+.trade-value-iframe {
+    height: 100%;
+}
+a.calculate-trade-btn {
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+    background: #ff8f00;
+    color: #fff!important;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a.calculate-trade-btn:hover {
+    background: #e27e00;
+    color: #fff!important;
+}
+.calculate-btn {
+    margin-top: 35px;
+}

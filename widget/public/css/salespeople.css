@@ -1,0 +1,7 @@
+.salesperson input {
+    display: none;
+}
+.salesperson-radio.active {
+    border: 2px solid #039be5;
+    border-radius: 12px!important;
+}

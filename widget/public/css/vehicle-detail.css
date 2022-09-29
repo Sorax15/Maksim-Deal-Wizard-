@@ -1,0 +1,211 @@
+.vehicle-section .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.vehicle-section {
+    padding: 25px;
+}
+
+/* Slideshow container */
+.vehicle-imgs {
+    max-width: 800px;
+    position: relative;
+}
+
+/* Hide the images by default */
+.vehicleImage {
+    display: none;
+}
+.vehicleImage img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white!important;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+.vehicle-info {
+    padding: 10px;
+}
+.description {
+    margin-top: 20px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 15px;
+}
+span.vehicle-condition {
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 15px;
+    background-color: #17c40c;
+    color: white;
+    font-weight: 900;
+    max-height: 35px;
+    min-width: 73px;
+    text-align: center;
+}
+.car-title{
+    font-weight: 900;
+    font-size: 23px;
+}
+.price-label{
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.term-label{
+    color: grey;
+    margin-top: -10px;
+}
+
+.price-amount{
+    font-size: 35px;
+    font-weight: 800;
+    color: #118ac4;
+    padding-bottom: 5px;
+    width: max-content;
+}
+.price-verbiage{
+    margin: auto;
+    padding: 10px 10px 10px 20px;
+    font-size: small;
+    font-weight: 500;
+
+}
+
+.vehicle-condition.used {
+    background: orange;
+    color: #fff;
+}
+.vehicle-condition.new {
+    background: #039BE5;
+    color: #fff;
+}
+.vehicle-name h5 {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+    position: relative;
+    top: 3px;
+}
+.vehicle-name {
+    margin-bottom: 25px;
+}
+.vehicle-details {
+    height: fit-content;
+    padding: 15px;
+    background: #fff;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.vehicle-details-darker {
+    height: fit-content;
+    padding: 15px;
+    background: #039be55c;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+.vehicle-vin, .vehicle-engine, .vehicle-transmission, .vehicle-details .row {
+    margin-bottom: 15px;
+}
+.vehicle-details .row .col-md-6 {
+    padding: 0;
+}
+.vehicle-details i {
+    color: #039be5;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: -8px;
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+.vehicle-item, .icon-info {
+    display: inline-block;
+}
+.icon-title {
+    display: block;
+    color: #757575;
+    font-size: 10px;
+    font-weight: bold;
+}
+.vehicle-price h5, .vehicle-price h3 {
+    margin-bottom: 0;
+}
+.vehicle-price h3 {
+    font-weight: bold;
+}
+.vehicle-price.row {
+    position: relative;
+    background: #039be5;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #fff;
+    padding: 25px 15px 15px 15px;
+}
+
+.tab-label{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.feature-items{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}

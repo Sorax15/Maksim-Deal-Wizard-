@@ -1,0 +1,45 @@
+.nav-main-container .preapproved-info {
+    flex: auto;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 2%;
+}
+.preapproved-info-header p {
+    font-size: 18px;
+    opacity: .54;
+}
+.preapproved-info-form-section {
+    margin-top: 35px;
+}
+.preapproved-info-form-section h3 {
+    color: #039BE5;
+    font-size: 24px;
+    font-weight: 700;
+}
+.preapproved-info-form-section hr {
+    border: 1px solid #CED8DF;
+}
+.pa-step img {
+    margin-top: -2px;
+    margin-right: 5px;
+}
+.pa-current {
+    border-bottom: 4px solid #039be5;
+    padding-bottom: 15px;
+}
+.pa-next {
+    border-bottom: 4px solid rgba(3, 155, 229, 0.2);
+    padding-bottom: 15px;
+}
+.pa-complete {
+    border-bottom: 4px solid #37B34A;
+}
+.errors {
+    margin-bottom: 15px;
+}
+.required, .errors {
+    color: red;
+}
+
+
+

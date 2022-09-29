@@ -1,0 +1,93 @@
+ .mobile-menu-icon{
+        display: none;
+    }
+
+     .mobile-menu-icon-sales{
+        display: none;
+    }
+
+    @media screen and (min-width: 1500px) {
+        .mobile-menu-icon{
+            display: none;
+        }
+        .side-navigation-container{
+            display: block;
+        }
+    }
+
+    /* under 1500px*/
+    @media screen and (max-width: 1500px) {
+        .mobile-menu-icon{
+            display:block;
+        }
+        .side-navigation-container{
+            display: none;
+        }
+
+
+    }
+
+    @media screen and (min-width: 1500px) {
+        .mobile-menu-icon-sales{
+            display: none;
+        }
+        .side-navigation-container{
+            display: block;
+        }
+    }
+
+    /* under 1500px*/
+    @media screen and (max-width: 1500px) {
+        .mobile-menu-icon-sales{
+            display:block;
+        }
+        .side-navigation-container{
+            display: none;
+        }
+
+
+    }
+
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 5px;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+
+    .sidenav .closebtnsales {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+
+    .closebtn-filter {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        float: right;
+        font-weight: 900;
+        margin-right: 10px;
+        margin-top: -10px;
+        cursor: pointer;
+    }

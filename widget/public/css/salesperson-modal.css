@@ -1,0 +1,108 @@
+.modal-salesperson-header{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    margin: 25px;
+}
+
+.modal-salesperson-grid{
+    display: grid;
+}
+
+.modal-salesperson-image{
+    border-radius: 5px;
+}
+.modal-salesperson-header-text{
+    font-weight: 700;
+    font-size: 15px;
+}
+.modal-salesperson-header-text2{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.modal-salesperson-left{
+    text-align: left;
+}
+
+.modal-salesperson-text{
+    font-size: 15px;
+    text-align: left;
+    margin: 25px;
+    padding-top: 10px;
+}
+
+.modal-salesperson-form{
+    margin: 25px;
+    padding-top: 10px;
+}
+
+.checkbox {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.contact-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .contact-box {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox input:checked ~ .contact-box {
+    background-color: #039be5;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.contact-box:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox input:checked ~ .contact-box:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .contact-box:after {
+    left: 9px;
+    top: 7px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.modal-salesperson-cancel{
+    color: #039be5;
+    font-weight: 800;
+    cursor: pointer;
+}
