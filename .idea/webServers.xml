@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ea88e98e-d4d2-4e4a-8587-4153c738013a" name="widget">
+        <fileTransfer rootFolder="/var/www/html/Maksim-Deal-Wizard-" accessType="SFTP" host="beta-widget-server.centralus.cloudapp.azure.com" port="22" sshConfigId="6d9a3536-3d98-4bab-9fd5-417c7dc2dd48" sshConfig="betauser@beta-widget-server.centralus.cloudapp.azure.com:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

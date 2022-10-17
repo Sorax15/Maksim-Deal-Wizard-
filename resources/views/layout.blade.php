@@ -33,6 +33,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css?v={{ time() }}"/>
+    <link rel="stylesheet" href="{{ asset('/scss/app.css') }}"/>
      <link rel="stylesheet" href="{{ asset('/css/mobile-menu.css') }}"/>
           <link rel="stylesheet" href="{{ asset('/css/sweetalert.min.css') }}"/>
 
@@ -78,7 +79,7 @@
 
     @endif
 
-<body>
+<body class="app">
 @include('includes.header')
 
 <div class="side-navigation-container sidenav" style = "z-index:999">

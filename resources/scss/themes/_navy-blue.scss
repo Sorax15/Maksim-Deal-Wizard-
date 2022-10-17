@@ -1,0 +1,19 @@
+@import "resources/scss/variables/color";
+
+body.navy_blue {
+    --h-color: $navy-blue-100;
+    --p-color: $blue-gray-100;
+    --p-small-color: $gray-60;
+
+    --primary-button: $orange-100;
+    --primary-button-hover: $orange-80;
+    --primary-button-disabled: $blue-gray-40;
+
+    --secondary-button: $navy-blue-100;
+    --secondary-button-hover: $navy-blue-100;
+    --secondary-button-disabled: $blue-gray-40;
+
+    --link-button: #1584F2; // hardcode
+    --link-button-hover: $blue-10;
+    --link-button-disabled: $blue-gray-60;
+}

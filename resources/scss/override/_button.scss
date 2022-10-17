@@ -1,0 +1,74 @@
+@import "resources/scss/variables/color";
+
+button {
+    border-radius: 8px;
+    padding: 11.5px 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+
+    i {
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+
+    &.primary {
+        background: var(--primary-button);
+
+        &:hover {
+            background: var(--primary-button-hover);
+        }
+
+        &:disabled {
+            background: var(--primary-button-disabled);
+        }
+
+        i {
+            color: #FFFFFF;
+        }
+    }
+
+    &.secondary {
+        color: var(--secondary-button);
+        border: 1px solid var(--secondary-button);
+
+        &:hover {
+            background: var(--secondary-button);
+        }
+
+        &:disabled {
+            color: var(--secondary-button-disabled);
+            border: 1px solid var(--secondary-button-disabled);
+        }
+
+        i {
+            color: $blue-100;
+        }
+    }
+
+    &.link {
+        border-radius: 8px;
+        padding: 9px 10px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--link-button);
+
+        &:hover {
+            background: var(--link-button-hover);
+        }
+
+        &:disabled {
+            color: var(--link-button-disabled);
+        }
+
+        i {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+        }
+    }
+
+}

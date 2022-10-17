@@ -1,0 +1,310 @@
+.app .text-navy-blue-120 {
+  color: #001647;
+}
+.app .background-navy-blue-120 {
+  background: #001647;
+}
+.app .text-background-navy-blue-120 {
+  background: #001647;
+  color: #001647;
+}
+.app .text-navy-blue-100 {
+  color: #00267A;
+}
+.app .background-navy-blue-100 {
+  background: #00267A;
+}
+.app .text-background-navy-blue-100 {
+  background: #00267A;
+  color: #00267A;
+}
+.app .text-navy-blue-80 {
+  color: #335094;
+}
+.app .background-navy-blue-80 {
+  background: #335094;
+}
+.app .text-background-navy-blue-80 {
+  background: #335094;
+  color: #335094;
+}
+.app .text-navy-blue-60 {
+  color: #99A7C9;
+}
+.app .background-navy-blue-60 {
+  background: #99A7C9;
+}
+.app .text-background-navy-blue-60 {
+  background: #99A7C9;
+  color: #99A7C9;
+}
+.app .text-navy-blue-40 {
+  color: #D9DCEA;
+}
+.app .background-navy-blue-40 {
+  background: #D9DCEA;
+}
+.app .text-background-navy-blue-40 {
+  background: #D9DCEA;
+  color: #D9DCEA;
+}
+.app .text-navy-blue-20 {
+  color: #EBEEF5;
+}
+.app .background-navy-blue-20 {
+  background: #EBEEF5;
+}
+.app .text-background-navy-blue-20 {
+  background: #EBEEF5;
+  color: #EBEEF5;
+}
+.app .text-navy-blue-10 {
+  color: #F6F7FC;
+}
+.app .background-navy-blue-10 {
+  background: #F6F7FC;
+}
+.app .text-background-navy-blue-10 {
+  background: #F6F7FC;
+  color: #F6F7FC;
+}
+.app .text-turquoise-120 {
+  color: #17B395;
+}
+.app .background-turquoise-120 {
+  background: #17B395;
+}
+.app .text-background-turquoise-120 {
+  background: #17B395;
+  color: #17B395;
+}
+.app .text-turquoise-100 {
+  color: #1ACBAA;
+}
+.app .background-turquoise-100 {
+  background: #1ACBAA;
+}
+.app .text-background-turquoise-100 {
+  background: #1ACBAA;
+  color: #1ACBAA;
+}
+.app .text-turquoise-60 {
+  color: #76E0CC;
+}
+.app .background-turquoise-60 {
+  background: #76E0CC;
+}
+.app .text-background-turquoise-60 {
+  background: #76E0CC;
+  color: #76E0CC;
+}
+.app .text-turquoise-40 {
+  color: #A3EADD;
+}
+.app .background-turquoise-40 {
+  background: #A3EADD;
+}
+.app .text-background-turquoise-40 {
+  background: #A3EADD;
+  color: #A3EADD;
+}
+.app .text-turquoise-20 {
+  color: #D3F5EF;
+}
+.app .background-turquoise-20 {
+  background: #D3F5EF;
+}
+.app .text-background-turquoise-20 {
+  background: #D3F5EF;
+  color: #D3F5EF;
+}
+.app .text-turquoise-10 {
+  color: #F3FCFB;
+}
+.app .background-turquoise-10 {
+  background: #F3FCFB;
+}
+.app .text-background-turquoise-10 {
+  background: #F3FCFB;
+  color: #F3FCFB;
+}
+.app .text-red-100 {
+  color: #FF3C47;
+}
+.app .background-red-100 {
+  background: #FF3C47;
+}
+.app .text-background-red-100 {
+  background: #FF3C47;
+  color: #FF3C47;
+}
+.app .text-red-80 {
+  color: #FF636C;
+}
+.app .background-red-80 {
+  background: #FF636C;
+}
+.app .text-background-red-80 {
+  background: #FF636C;
+  color: #FF636C;
+}
+.app .text-red-60 {
+  color: #FF8A91;
+}
+.app .background-red-60 {
+  background: #FF8A91;
+}
+.app .text-background-red-60 {
+  background: #FF8A91;
+  color: #FF8A91;
+}
+.app .text-red-40 {
+  color: #FFB1B6;
+}
+.app .background-red-40 {
+  background: #FFB1B6;
+}
+.app .text-background-red-40 {
+  background: #FFB1B6;
+  color: #FFB1B6;
+}
+.app .text-red-20 {
+  color: #FFD8DA;
+}
+.app .background-red-20 {
+  background: #FFD8DA;
+}
+.app .text-background-red-20 {
+  background: #FFD8DA;
+  color: #FFD8DA;
+}
+.app .text-red-10 {
+  color: #FFECED;
+}
+.app .background-red-10 {
+  background: #FFECED;
+}
+.app .text-background-red-10 {
+  background: #FFECED;
+  color: #FFECED;
+}
+.app .text-orange-100 {
+  color: #FF8F00;
+}
+.app .background-orange-100 {
+  background: #FF8F00;
+}
+.app .text-background-orange-100 {
+  background: #FF8F00;
+  color: #FF8F00;
+}
+.app .text-orange-80 {
+  color: #FFA533;
+}
+.app .background-orange-80 {
+  background: #FFA533;
+}
+.app .text-background-orange-80 {
+  background: #FFA533;
+  color: #FFA533;
+}
+.app .text-orange-60 {
+  color: #FFBC66;
+}
+.app .background-orange-60 {
+  background: #FFBC66;
+}
+.app .text-background-orange-60 {
+  background: #FFBC66;
+  color: #FFBC66;
+}
+.app .text-orange-40 {
+  color: #FFD299;
+}
+.app .background-orange-40 {
+  background: #FFD299;
+}
+.app .text-background-orange-40 {
+  background: #FFD299;
+  color: #FFD299;
+}
+.app .text-orange-20 {
+  color: #FFEDD6;
+}
+.app .background-orange-20 {
+  background: #FFEDD6;
+}
+.app .text-background-orange-20 {
+  background: #FFEDD6;
+  color: #FFEDD6;
+}
+.app .text-orange-10 {
+  color: #FFF6EB;
+}
+.app .background-orange-10 {
+  background: #FFF6EB;
+}
+.app .text-background-orange-10 {
+  background: #FFF6EB;
+  color: #FFF6EB;
+}
+.app .text-blue-100 {
+  color: #1385F0;
+}
+.app .background-blue-100 {
+  background: #1385F0;
+}
+.app .text-background-blue-100 {
+  background: #1385F0;
+  color: #1385F0;
+}
+.app .text-blue-80 {
+  color: #429DF3;
+}
+.app .background-blue-80 {
+  background: #429DF3;
+}
+.app .text-background-blue-80 {
+  background: #429DF3;
+  color: #429DF3;
+}
+.app .text-blue-60 {
+  color: #71B6F6;
+}
+.app .background-blue-60 {
+  background: #71B6F6;
+}
+.app .text-background-blue-60 {
+  background: #71B6F6;
+  color: #71B6F6;
+}
+.app .text-blue-40 {
+  color: #A1CEF9;
+}
+.app .background-blue-40 {
+  background: #A1CEF9;
+}
+.app .text-background-blue-40 {
+  background: #A1CEF9;
+  color: #A1CEF9;
+}
+.app .text-blue-20 {
+  color: #D0E7FC;
+}
+.app .background-blue-20 {
+  background: #D0E7FC;
+}
+.app .text-background-blue-20 {
+  background: #D0E7FC;
+  color: #D0E7FC;
+}
+.app .text-blue-10 {
+  color: #E7F3FE;
+}
+.app .background-blue-10 {
+  background: #E7F3FE;
+}
+.app .text-background-blue-10 {
+  background: #E7F3FE;
+  color: #E7F3FE;
+}

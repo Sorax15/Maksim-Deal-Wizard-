@@ -1,0 +1,81 @@
+@import "resources/scss/variables/color";
+
+$colors-map: (
+    navy-blue-120:    $navy-blue-120,
+    navy-blue-100:    $navy-blue-100,
+    navy-blue-80:     $navy-blue-80,
+    navy-blue-60:     $navy-blue-60,
+    navy-blue-40:     $navy-blue-40,
+    navy-blue-20:     $navy-blue-20,
+    navy-blue-10:     $navy-blue-10,
+
+    turquoise-120:    $turquoise-120,
+    turquoise-100:    $turquoise-100,
+    turquoise-60:     $turquoise-60,
+    turquoise-40:     $turquoise-40,
+    turquoise-20:     $turquoise-20,
+    turquoise-10:     $turquoise-10,
+
+    red-100:          $red-100,
+    red-80:           $red-80,
+    red-60:           $red-60,
+    red-40:           $red-40,
+    red-20:           $red-20,
+    red-10:           $red-10,
+
+    orange-100:       $orange-100,
+    orange-80:        $orange-80,
+    orange-60:        $orange-60,
+    orange-40:        $orange-40,
+    orange-20:        $orange-20,
+    orange-10:        $orange-10,
+
+    blue-100:         $blue-100,
+    blue-80:          $blue-80,
+    blue-60:          $blue-60,
+    blue-40:          $blue-40,
+    blue-20:          $blue-20,
+    blue-10:          $blue-10,
+
+    carmine-red-120:  $carmine-red-120,
+    carmine-red-100:  $carmine-red-100,
+    carmine-red-80:   $carmine-red-80,
+    carmine-red-60:   $carmine-red-60,
+    carmine-red-40:   $carmine-red-40,
+    carmine-red-20:   $carmine-red-20,
+    carmine-red-10:   $carmine-red-10,
+    carmine-red-5:    $carmine-red-5,
+
+    iron-grey-120:    $iron-grey-120,
+    iron-grey-100:    $iron-grey-100,
+    iron-grey-80:     $iron-grey-80,
+    iron-grey-60:     $iron-grey-60,
+    iron-grey-1:      $iron-grey-1,
+    iron-grey-2:      $iron-grey-2,
+    iron-grey-3:      $iron-grey-3,
+
+    gray-100:         $gray-100,
+    gray-80:          $gray-80,
+    gray-60:          $gray-60,
+    gray-40:          $gray-40,
+    gray-20:          $gray-20,
+    gray-10:          $gray-10,
+    gray-5:           $gray-5,
+);
+
+.app {
+    @each $name, $color in $colors-map {
+        .text-#{$name} {
+            color: $color;
+        }
+
+        .background-#{$name} {
+            background: $color;
+        }
+
+        .text-background-#{$name} {
+            background: $color;
+            color: $color;
+        }
+    }
+}
